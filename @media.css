@@ -1,0 +1,123 @@
+@media (max-width: 1100px) {
+    .navbar {
+        justify-content:end;
+    }
+    .drop:hover .nav-list {
+        display: block;
+        position: absolute;
+        top: 97px;
+        right: 1px;
+        background-color:rgba(231, 240, 247, 1);
+    }
+    .nav-list {
+        display: none;
+    }
+    .nav-list a.active {
+        border-bottom: none;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    .nav-btn {
+        font-size: 2em;
+        padding: 0.84em;
+        border: none;
+        color: rgba(0, 0, 0, 0.8);
+        background-color:rgba(231, 240, 247, 1);
+        display: block;
+    }
+    .nav-btn:hover {
+        background-color:rgba(30, 48, 211, 0.05);
+    }
+    .RightFon {
+        display: none;
+    }
+    .LeftFon {
+        width: 100%;
+    }
+    .Textfon {
+        font-size: 16px;
+        margin: 15px 50px 0 50px;
+        text-align: center;
+    }
+    #TextFON {
+        font-size: 40px;
+        line-height: 56px;
+    }
+    .LeftFon form {
+        text-align: center;
+    }
+    .LeftFon button {
+        padding: 20px 40px;
+        font-size: 16px;
+        margin: 60px 0 98px 0;
+    }
+    .top {
+        top: 579px;
+        padding: 5px 5px 0 0;
+    }
+    .text {
+        margin: 0 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer {
+        padding: 25px 50px;
+    }
+    .links {
+        flex-direction: column;
+    }
+    #VK {
+        display: block;
+        margin: 15px auto;
+    }
+    .card { /* СТРАНИЦА "ЭКСПОНАТЫ" */
+        margin: 0px 50px 70px 50px;
+    }
+    .left {
+        width: 100%;
+        text-align: center;
+    }
+    .left p {
+        padding: 0 15px 40px 15px;
+    }
+    #h5 {
+        font-size: 26px;
+        padding: 60px 0px 20px 0px;
+    }
+    .left button {
+        margin: 0 20px 60px 20px;
+    }
+    .right {
+        display: none;
+    }
+    .footer2 {
+        padding: 15px 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact2 {
+        margin: 10px 0;
+    }
+    .sectionpro1 { /* СТРАНИЦЫ "ПРОЕКТ1 - ПРОЕКТ4" */
+        flex-direction: column;
+        margin: 140px 50px 40px 50px;
+    }
+    .proleft {
+        width: 100%;
+    }
+    .scroll-text {
+        padding: 0 15px 0 15px;
+        overflow-y: scroll;
+    }
+    #H7 {
+        font-size: 26px;
+        padding: 40px 0 20px 0px;
+        text-align: center;
+    }
+    .proleft button {
+        padding: 13px 25px;
+        margin: 40px 5px 40px 5px;
+    }
+    .proright {
+        width: 100%;
+    }
+}

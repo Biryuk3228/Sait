@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="source/styles/mycss.css">
+    <link rel="stylesheet" href="source/styles/@media.css">
+    <title>Музей Вычислительной Техники ИВИТШ</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a id="Fp1" class="BOLD" href="index.html">Музей<br>Вычислительной<br>Техники</a>
+            <div class="drop">
+                <div class="nav-list">
+                    <a class="BOLD" href="Exhibits.html">Экспонаты</a>
+                    <a class="BOLD" href="index.html">О музее</a>
+                    <a class="BOLD" href="#Footer2">Контакты</a>
+                </div>
+                <button class="nav-btn">&#9776;</button>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="sectionpro1">
+            <div class="proleft">
+                <p id="H7" class="BOLD">Арифмометр «Феликс»</p>
+                <p class="scroll-text" style="height: 500px;">&emsp;Проект представляет собой интерактивный экспонат для музея вычислительной техники КГУ, посвящённый легендарному механическому калькулятору — арифмометру «Феликс». Этот аппарат широко использовался в СССР в XX веке, и задача заключалась в том, чтобы не только рассказать о его истории, но и позволить посетителям музея «поработать» на нём с помощью современных технологий.<br><br><b>&emsp;Экспонат состоит из двух частей:</b><br><b>-</b> <em>физическая модель арифмометра</em>, которую можно вращать и изучать;<br><b>-</b> <em>интерактивное WPF-приложение с 3D-моделью</em>, реагирующей на жесты пользователя.<br><br><b>&emsp;Приложение включает несколько разделов:</b><br><b>-</b> <em>виртуальный арифмометр</em> – 3D-модель, на которой можно выполнять вычисления, управляя ей жестами;<br><b>-</b> <em>механизм арифмометра</em> – разбор внутреннего устройства, демонстрация работы шестерёнок и рычагов;<br><b>-</b> <em>интересные факты</em> – историческая справка и малоизвестные детали о «Феликсе»;<br><b>-</b> <em>документация</em> – инструкция по использованию виртуального арифмометра;<br><b>-</b> <em>авторы проекта</em> – информация о команде разработчиков.<br><br>&emsp;Для взаимодействия с 3D-моделью используется система распознавания жестов: камера (например, смартфон на штативе) фиксирует движения руки, а Python-программа на основе OpenCV обрабатывает их и передаёт данные в WPF-приложение через сокеты.<br><br><b>&emsp;Роль каждого участника в создании проекта:</b><br><br>&emsp;<em><b>Королева Варвара</b></em> (Team Leader) координировала работу команды, распределяла задачи, создавала GitHub-репозитории, разрабатывала серверную часть для жестового управления, собирала физическую модель арифмометра, готовила презентации и документацию, а также участвовала в монтаже видео о проекте.<br>&emsp;<em><b>Соков Олег</b></em> занимался разработкой Python-приложения для распознавания жестов (OpenCV), настройкой сокет-сервера для связи между Python и WPF, тестированием вычислений и помогал в создании видеоролика.<br>&emsp;<em><b>Воронов Максим</b></em> и <em><b>Капралов Артём</b></em> совместно работали над интеграцией 3D-модели в WPF, программировали логику работы виртуального арифмометра и анимацию его механизмов.<br>&emsp;<em><b>Юрин Иван</b></em> отвечал за клиентскую часть взаимодействия с жестами (обработка данных от Python), настройку камеры в WPF, создание подсказок и индикаторов отслеживания руки.<br>&emsp;<em><b>Малинин Егор</b></em> разрабатывал макет приложения в Figma, создавал и адаптировал 3D-модель арифмометра в Blender, а также переносил дизайн в WPF.<br>&emsp;<em><b>Евстигнеев Кирилл</b></em> работал с 3D-моделью в Blender, разделяя её на отдельные компоненты для анимации в WPF.<br>&emsp;<em><b>Частова Екатерина</b></em> собирала исторические материалы, интересные факты и подбирала иллюстрации для раздела с информацией об арифмометре.<br>&emsp;<em><b>Корощенко Кирилл</b></em> (аналитик) проектировал структуру приложения, помогал в организации логики взаимодействия между модулями.<br><br>&emsp;Экспонат сочетает историческую достоверность и современные технологии, позволяя посетителям музея не только узнать о вычислительной технике прошлого, но и буквально прикоснуться к ней через интерактивное управление. Это делает изучение арифмометра «Феликс» увлекательным и наглядным для людей любого возраста.</p>
+                <div class="inline">
+                    <form action="Project1.html"><button>Предыдущий<br>экспонат</button></form>
+                    <form action="Project3.html"><button id="button2" >Следующий<br>экспонат</button></form>
+                </div>
+            </div>
+            <div class="proright">
+                <div id="customCarousel" class="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" aria-label="Slide 2"></button>
+                        <button type="button" aria-label="Slide 3"></button>
+                    </div>
+        
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img style="width: 730px" src="source/images/Проект2/Проект2.1.png" alt="Фото эскпоната №2">
+                        </div>
+                        <div class="carousel-item active">
+                            <img style="width: 730px" src="source/images/Проект2/Проект2.2.png" alt="Фото эскпоната №2">
+                        </div>
+                        <div class="carousel-item active">
+                            <img style="width: 730px" src="source/images/Проект2/Проект2.3.png" alt="Фото эскпоната №2">
+                        </div>
+                    </div>
+        
+                    <button class="carousel-control carousel-control-prev" type="button">
+                        <span aria-hidden="true">❮</span>
+                        <span class="visually-hidden"></span>
+                    </button>
+                    <button class="carousel-control carousel-control-next" type="button">
+                        <span aria-hidden="true">❯</span>
+                        <span class="visually-hidden"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="Footer2">
+        <div class="footer2">
+            <div class="contact2">
+                <a href="https://kosgos.ru" target="_blank"><img src="source/images/logo.svg" alt="Логотип КГУ"></a>
+            </div>
+            <div class="contact2">                
+                <p><a href="https://itschool.kosgos.ru" target="_blank">Оф.сайт: &emsp;<strong>Высшая ИТ-школа</strong></a><br>Адрес: &emsp;<strong>г. Кострома, ул. Ивановская, д. 24а</strong></p>
+            </div>
+            <div class="contact2">                
+                <a href="https://vk.com/itschoolksu" target="_blank"><img style="width: 50px" src="source/images/VK.png" alt="VK"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="source/files/java.js"></script>
+</body>
+</html>
